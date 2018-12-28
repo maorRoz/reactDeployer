@@ -1,0 +1,14 @@
+{
+  "name": "reactdeployer",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/maorRoz/reactDeployer.git",
+  "author": "maorroz <andory@post.bgu.ac.il>",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
