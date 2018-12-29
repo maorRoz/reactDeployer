@@ -3,9 +3,12 @@ const path = require('path');
 
 const app = express();
 
+let sentNumber = 0;
+
 app.use((req, res, next) => {
     if(req.url === '/'){
-        console.log('sent page!');
+        sentNumber++;
+        console.log(`sent page ${sentNumber} times!`);
     }
     next();
 })
